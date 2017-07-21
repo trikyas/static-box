@@ -17,7 +17,7 @@ function init() {
   var particleGeo = new THREE.Geometry();
   var particleMat = new THREE.PointsMaterial({
     color: 'rgb(255, 255, 255)',
-    size: .25,
+    size: .22,
     map: new THREE.TextureLoader().load('./assets/textures/particle.jpg'),
     transparent: true,
     blending: THREE.AdditiveBlending,
