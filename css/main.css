@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+#webgl::before {
+  content: 'Trikyas Web Designs';
+  text-decoration: underline overline;
+  font-family: fantasy;
+  position: absolute;
+  z-index: 99999;
+  width: 500px;
+  height: 30px;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 30px;
+}
